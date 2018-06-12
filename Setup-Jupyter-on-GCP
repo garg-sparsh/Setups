@@ -4,5 +4,6 @@
 4. Add new firewall with target-tags -> http-server, and specify tcp:80;tcp:8888 port numbers
 5. wget https://bootstrap.pypa.io/get-pip.py
    sudo python3 get-pip.py
-6. jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser
-7. http://146.148.111.153:8888/?token=(token code)
+6. sudo pip3 install jupyter
+7. jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser
+8. http://146.148.111.153:8888/?token=(token code)
